@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thưởng thức Starbucks tại Vinh</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Điều hướng chính">
+      <div class="container site-container">
+        <a class="navbar-brand" href="index.html" aria-label="Trang chủ">
+          <img class="site-logo" src="assets/images/logo-starbucks.png" width="48" height="48" alt="Starbucks">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dieu-huong-chinh" aria-controls="dieu-huong-chinh" aria-expanded="false">Menu</button>
+        <div class="collapse navbar-collapse" id="dieu-huong-chinh">
+          <ul class="navbar-nav ms-lg-auto align-items-lg-center gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html" aria-current="page">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="thuc-don.html">Thực đơn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="coffee.html">Coffee</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="cua-hang.html">Tìm cửa hàng</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="noi-dung-chinh" class="flex-grow-1">
+    <div class="home-intro">
+      <div class="container site-container">
+        <div class="row align-items-center gx-4">
+          <div class="col-12 col-lg-6">
+            <section class="site-section home-hero" aria-labelledby="tieu-de-trang">
+              <h1 id="tieu-de-trang">Thưởng thức Starbucks tại Vinh</h1>
+              <p>Từ espresso đậm vị đến matcha và Frappuccino đá xay, chọn món bạn muốn thử rồi tìm cửa hàng ở Vinh.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-primary" href="thuc-don.html">Khám phá thực đơn</a>
+                <a class="btn btn-outline-primary" href="cua-hang.html">Tìm cửa hàng</a>
+              </div>
+            </section>
+            <section class="site-section home-story" aria-labelledby="tu-seattle-den-vinh">
+              <h2 id="tu-seattle-den-vinh">Từ Seattle đến Vinh</h2>
+              <p>Starbucks bắt đầu tại chợ Pike Place ở Seattle năm 1971. Ở Vinh, bạn có thể ghé Vincom Plaza Vinh hoặc cửa hàng trên đường Hồ Tùng Mậu. Trước khi đi, hãy khám phá các món và tìm hiểu hương vị của từng dòng cà phê hạt.</p>
+              <a class="btn btn-outline-primary" href="coffee.html">Tìm hiểu cà phê</a>
+            </section>
+          </div>
+          <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+            <img class="site-logo home-intro-logo" src="assets/images/logo-starbucks.png" width="554" height="554" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="site-section home-featured" aria-labelledby="mon-noi-bat">
+      <div class="container site-container">
+        <h2 id="mon-noi-bat">Món nổi bật</h2>
+        <p>Bốn món được website chọn giới thiệu.</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 g-md-4">
+          <article class="col">
+            <div class="card h-100 product-card coffee-card">
+              <img class="product-image" src="assets/images/espresso/caffe-latte.png" width="728" height="717" alt="Caffè Latte" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">
+                  <a class="mt-auto" href="thuc-don.html#caffe-latte">Caffè Latte</a>
+                </h3>
+                <p class="product-desc">Espresso hòa với sữa, cho vị cà phê dịu và lớp bọt mịn.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 product-card coffee-card">
+              <img class="product-image" src="assets/images/espresso/caramel-macchiato.png" width="660" height="655" alt="Caramel Macchiato" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">
+                  <a class="mt-auto" href="thuc-don.html#caramel-macchiato">Caramel Macchiato</a>
+                </h3>
+                <p class="product-desc">Espresso và sữa, nổi bật với lớp xốt caramel thơm.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 product-card coffee-card">
+              <img class="product-image" src="assets/images/frappuccino/java-chip-frappuccino.png" width="1024" height="1024" alt="Java Chip Frappuccino®" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">
+                  <a class="mt-auto" href="thuc-don.html#java-chip-frappuccino">Java Chip Frappuccino®</a>
+                </h3>
+                <p class="product-desc">Cà phê đá xay có vị sô-cô-la và vụn sô-cô-la.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 product-card">
+              <img class="product-image" src="assets/images/tra-matcha/pure-matcha-latte.png" width="660" height="660" alt="Pure Matcha Latte" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">Pure Matcha Latte</h3>
+                <p class="product-desc">Matcha phối với sữa, cho vị trà xanh và độ béo nhẹ.</p>
+                <p class="mt-2 mb-1"><span class="badge best-seller-badge bg-success-subtle text-success-emphasis">Best Seller</span></p>
+                <a class="mt-auto" href="thuc-don.html#pure-matcha-latte">Xem trong thực đơn</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section home-coffee" aria-label="Coffee nổi bật">
+      <div class="container site-container">
+        <h2>Coffee nổi bật</h2>
+        <div class="row g-3 g-md-4">
+          <article class="col-6 col-md-4 col-lg-3">
+            <a class="card h-100 product-card coffee-card text-decoration-none" href="coffee.html#willow-blend">
+              <img class="product-image" src="assets/images/coffee/willow-blend.png" width="377" height="447" alt="Willow Blend" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">Willow Blend</h3>
+                <p class="product-desc">Willow Blend thanh và sáng vị.</p>
+              </div>
+            </a>
+          </article>
+          <article class="col-6 col-md-4 col-lg-3">
+            <a class="card h-100 product-card coffee-card text-decoration-none" href="coffee.html#colombia">
+              <img class="product-image" src="assets/images/coffee/colombia.png" width="375" height="575" alt="Colombia" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">Colombia</h3>
+                <p class="product-desc">Colombia cân bằng, gợi vị hạt.</p>
+              </div>
+            </a>
+          </article>
+          <article class="col-6 col-md-4 col-lg-3">
+            <a class="card h-100 product-card coffee-card text-decoration-none" href="coffee.html#espresso-roast">
+              <img class="product-image" src="assets/images/coffee/espresso-roast.png" width="376" height="448" alt="Espresso Roast" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">Espresso Roast</h3>
+                <p class="product-desc">Espresso Roast có nét caramel.</p>
+              </div>
+            </a>
+          </article>
+          <article class="col-6 col-md-4 col-lg-3">
+            <a class="card h-100 product-card coffee-card text-decoration-none" href="coffee.html#anniversary-blend">
+              <img class="product-image" src="assets/images/coffee/anniversary-blend.png" width="376" height="448" alt="Anniversary Blend" loading="lazy">
+              <div class="product-body">
+                <h3 class="card-title product-name">Anniversary Blend</h3>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section visit-banner" aria-labelledby="ghe-starbucks-tai-vinh">
+      <div class="container site-container">
+        <h2 id="ghe-starbucks-tai-vinh">Ghé Starbucks tại Vinh</h2>
+        <p>Chọn Vincom Plaza Vinh hoặc Hồ Tùng Mậu để xem đường đi.</p>
+        <a class="btn btn-primary" href="cua-hang.html">Xem hai địa chỉ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-container d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-4">
+      <div>
+        <nav aria-label="Điều hướng chân trang">
+          <ul class="list-unstyled d-flex flex-column flex-md-row flex-md-wrap gap-3">
+            <li><a href="ho-tro.html">Hỗ trợ khách hàng</a></li>
+            <li><a href="lien-he.html">Liên hệ</a></li>
+            <li><a href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
+            <li><a href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a></li>
+          </ul>
+        </nav>
+        <p>Website giới thiệu do nhóm dự án thực hiện</p>
+      </div>
+      <a class="footer-logo d-inline-flex flex-shrink-0 align-self-end" href="index.html" aria-label="Trang chủ">
+        <img class="site-logo" src="assets/images/logo-starbucks.png" width="48" height="48" alt="Starbucks">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
