@@ -95,7 +95,6 @@
       return;
     }
 
-    document.documentElement.classList.add("bootstrap-ready");
     const desktop = window.matchMedia("(min-width: 992px)");
 
     function closeMobileMenu() {
