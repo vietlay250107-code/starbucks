@@ -297,16 +297,6 @@ main > .site-container {
   background-color: var(--color-mint);
 }
 
-.hero-image,
-.story-image,
-.coffee-intro-image {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  border-radius: var(--card-radius);
-  object-fit: cover;
-}
-
 .card {
   --bs-card-bg: var(--color-white);
   --bs-card-border-color: var(--color-mint);
@@ -376,7 +366,6 @@ main > .site-container {
 
 #flat-white .product-image {
   object-position: right center;
-  object-view-box: inset(16% 0 5% 47.5%);
 }
 
 .product-body {
@@ -416,17 +405,6 @@ main > .site-container {
     max-width: var(--product-card-max-width);
     margin-inline: auto;
   }
-
-  .coffee-group[aria-labelledby="rang-dam"] > .row {
-    max-width: calc(3 * (var(--product-card-max-width) + var(--bs-gutter-x)));
-    margin-inline: auto;
-  }
-}
-
-.product-card > .ratio {
-  --bs-aspect-ratio: 75%;
-  overflow: hidden;
-  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
 
 .product-card:is(:focus-visible, :has(:focus-visible)) {
@@ -435,10 +413,6 @@ main > .site-container {
   border-color: var(--color-brand);
   outline: 3px solid var(--color-brand);
   outline-offset: 3px;
-}
-
-.site-footer .product-card:is(:focus-visible, :has(:focus-visible)) {
-  box-shadow: 0 0 0 7px var(--color-mint), 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 @media (hover: hover) {
